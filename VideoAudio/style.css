@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#FEFFDA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: #188f32;
+    width: 500px;
+    margin: 75px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+video{
+   background-color: #000;	
+}
+.keys{
+    height: 50px;
+    width: 500px;
+    display: inline;
+    position: relative;
+}
+.keys img, .keys div{
+    display: inline-block;        	
+}
+
+.volume_span{
+     width: 100px;
+ }
+
+.volume_stop{
+    width: 50px;
+    height: 50px;
+    display: inline;  
+    /*float: left;*/
+}
+
+img.full_span{
+    float: right;
+}
+
+.keys .keys_play{
+    float: right;
+    width: 320px;
+}
+#timer{
+    /*float: left;*/
+    font-weight: bold;
+    color:#FEFFDA;
+}
+
+.rangeTime {
+    width: 90%;
+    height: 15px;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    background: #FEFFDA;
+    outline: none;
+    opacity: 0.7;
+    
+}
+    .rangeTime::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #06300f;
+        cursor: pointer;
+    }
+
+#slower, #faster{
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0;
+    background: #FEFFDA;    
+    color:#004d11;        
+  }
+.rangeVolume{
+  float: right;
+  margin: 20px 0;
+  width: 100px;
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background:#FEFFDA;
+  outline: none;
+  opacity: 0.7;
+}
+.rangeVolume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #000033;
+    cursor: pointer;
+}
+
+button{
+    margin: 10px;
+}
+
+.keys #timer{
+    float: left;
+    margin: 10px 0;
+}
+
+.keys .rangeTime{
+    font-weight: bold;
+    float: right;
+    margin: 10px 0;
+}
+
+.playbackRate span{
+    color:#FEFFDA;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+.playbackRate{
+    display: inline;
+}
+
+img, .playbackRate, #slower, #faster,
+.rangeTime:hover, .rangeTime:focus,
+.rangeVolume:hover, .rangeVolume:focus {
+    cursor: pointer;
+}
+
+.volume_set {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 6px;
+    background: #FEFFDA;
+    outline: none;
+    opacity: 0.7;
+}
+    .volume_set::-webkit-slider-thumb {
+        background: #06300f;
+        cursor: pointer;
+    }

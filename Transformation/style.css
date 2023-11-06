@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#container {
+    width: 1100px;
+    margin: 20px auto;
+    display: block;
+}
+
+ul#buttons {
+    float: left;
+    width: 300px;
+    padding-left: 50px;
+    margin-top: 76px;
+}
+
+ul#buttons li {
+    float: left;
+    margin: 0px 50px 102px 0 ;
+}
+
+ul.images {
+    display: block;
+    float: left;
+    width: 700px;
+    margin-top: 70px;
+}
+
+ul.images li {
+    float: left;
+    margin: 0 30px 30px 0 ;
+}
+
+a {
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a.foo_1 {
+    padding: 5px 10px;
+    background: #21a7db;
+    /*-webkit-transition-property: background;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 0.5s;*/
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+
+a.foo_1:hover, a.foo:focus {
+    background: #3336cc;
+}
+
+a.foo_2 {
+    padding: 5px 10px;
+    color: #0a0db3;
+    background : #5dcbf7;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -moz-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
+}
+a.foo_2:hover, a.foo_2:focus {
+    color: #5dcbf7;
+    background: #0a0db3;
+}
+
+a.foo_3 {
+    padding: 5px 10px;
+    background: #0a0db3;
+    font-size: 25px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+a.foo_3:hover, a.foo_3:focus {
+    color: #000;
+    background: #109696;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+a.foo_4 {
+    padding: 5px 10px;
+    color: #0a0db3;
+    background : #5dcbf7;
+    font-size: 25px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+a.foo_4:hover, a.foo_4:focus {
+    opacity: 0.7;
+    transform: translate(20px, 40px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#soupbubbles1 a img{
+    -webkit-transition: – webkit-transform 0.2s ease-in-out;
+    -moz-transition: – moz-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+#soupbubbles1 a:hover img {
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -o-transform-origin: bottom right;
+    transform-origin: bottom right;
+
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#soupbubbles2 a:hover img {
+    -webkit-transform: scale(1.5) rotate(-10deg);
+    -moz-transform: scale(1.5) rotate(-10deg);
+    -o-transform: scale(1.5) rotate(-10deg);
+    transform: scale(1.5) rotate(-10deg);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#soupbubbles3 a:hover img {
+    -webkit-transform: scale(0.5) skew(-5deg, 30deg);
+    -moz-transform: scale(0.5) skew(-5deg, 30deg);
+    -o-transform: scale(0.5) skew(-5deg, 30deg);
+    transform: scale(0.5) skew(-5deg, 30deg);
+}
+
+#soupbubbles4 a:hover img {
+    -webkit-transform: scale(1.5) translate(-20px, -20px);
+    -moz-transform: scale(1.5) translate(-20px, -20px);
+    -o-transform: scale(1.5) translate(-20px, -20px);
+    transform: scale(1.5) translate(-20px, -20px);
+}
+
+

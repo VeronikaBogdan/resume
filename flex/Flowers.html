@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+ 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Галерея картин Валентина Серова" />
+    <meta name="keywords" content="картины, Валентин, Серов, галерея, описание" />
+	<title>&ldquo;Цветы&rdquo; В.Серов</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="pictures.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div class="burger">
+			<h1>Галерея картин Валентина Серова</h1>  		
+			<a class="toggle-nav" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>	
+			</div>			
+			<nav class="menu">
+				<ul class="active">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="information.html">Информация о художнике</a></li>
+				</ul>	
+			</nav>
+		</div>
+		<a href="index.html"><h1 style="padding:0 35px; letter-spacing: 0px; text-align: center;">&laquo;Цветы&raquo;</h1></a> 			
+		<a href="index.html"><img class="img6" src="images/Flowers.jpg" title="Цветы" alt="Цветы" /></a>
+		<div style="display: flex; justify-content:space-between;">
+			<a href="Anna_Pavlova.html"><span class="strelka">&larr;</span></a>
+			<a href="Baba_v_telege.html"><span class="strelka">&rarr;</span></a>
+		</div>
+		<div id="text1" style="margin-top: 0 ;">	
+			<p>Валентин Серов был необычайно одаренным художником. Он писал изумительные портреты, ему чудесно удавались пейзажи, животные, цветы — все, что рождало в нем вдохновение, находило светлое отражение в его полотнах. Как тонкий пейзажист, Серов не мог равнодушно относиться к красоте цветов. Его картина «Цветы» стала настоящим подарком для поклонников его творчества.</p>	
+			<br>
+			<p>Одним из любимых периодов художника, было то время, когда расцветала сирень. Тяжелые гроздья распускаются в конце весны, когда уже нет отголосков холодной зимы, когда вся земля просыпается от тепла и солнечной ласки, когда душа замирает в ожидании непонятного счастья. В радужные волны мелких цветов погружаются дома по самые крыши, скрывая и богатство, и нищету. Щедрая, спокойная красота наполняет все пространство, и горько думать, что пройдет чуть-чуть времени, и это буйство красок опадет. Хочется надышаться, насмотреться, сохранить это видение.</p>	
+			<br>
+			<p>Серов очень любил сирень, он сумел сохранить для нас это великолепие. Эти ароматные ветки очень часто присутствуют на его картинах. И здесь в центре картины изображен пышный сиреневый букет. Все великолепие скромных цветов попытался показать Серов в этой картине. Белые и сиреневые кисти — это не просто украшение стола, это гораздо большее. Сирень настолько давно живет рядом с человеком, что у каждого созерцателя картины букет обязательно вызывает волны нахлынувших воспоминаний. Может быть, это веселое детство, а , быть может, беспечная, далекая молодость. Сирень- это теплые летние вечера, это первое томление, это легкая грусть, это надежды.</p>	
+			<br>
+			<p>Картина написана в холодных, сине – сиреневых тонах, однако, ощущение мрачности совсем не возникает. Белые блики светлых кистей, теплые штрихи мелких цветов наполняют все полотно воздушностью, чистотой и светом. Возникает чувство наступившего утра, утра дня или новой жизни.</p>	
+		</div>
+		<div id="footer">
+			<p>&copy; БГУ, 2020 | <a href="mailto:galery.Serov2020@gmail.com" style="color: #18298F">galery.Serov2020@gmail.com</a></p>
+		</div>
+	</div>
+	<script>
+		jQuery(document).ready(function() {
+		jQuery('.toggle-nav').click(function(e) {
+		jQuery(this).toggleClass('active');
+		jQuery('.menu ul').toggleClass('active');
+
+		e.preventDefault();
+		});
+	});
+
+	</script>
+</body>
+</html>
+

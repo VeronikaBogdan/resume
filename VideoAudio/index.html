@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ВидеоАудио Богдан Вероники</title>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+    	<div id="container">
+	    	<video id="video" src="nature.mp4" width="500" height="285" preload="metadata" poster="images/preview.png"></video>
+			<div class="keys">
+				<div>
+					<img src="images/voice-50.png" class="volume_stop" id="volume_stop">
+                    <input class="volume_set rangeVolume" type="range" step="0.1" min="0" max="1" value="0.5" id="volume" />
+				</div>
+                <div class="keys_play">
+                    <div class="but">
+        				<img src="images/rewind-50.png" class="back_span" id="back">
+        				<img src="images/play-50.png" class="play_span" id="play">
+        				<img src="images/fast-forward-50.png" class="next_span" id="next">
+                    </div>
+    				<img src="images/expand-48.png" class="full_span" id="full">
+                </div>
+		    </div>
+            <div class="keys" style="margin-bottom: 10px;">
+		        <p id="timer">00:00</p>
+				<input type="range" class="rangeTime" id="range" value="0">
+            </div>
+            <div class="keys playbackRate">
+                <button id="slower"><strong>медленнее</strong></button>
+                <button id="faster"><strong>быстрее</strong></button>
+                <span id="playbackRate"></span>
+            </div>
+    	</div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>

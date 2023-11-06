@@ -1,0 +1,92 @@
+body {
+    padding: 0 40px;
+    background: #fff;   
+}
+#container {
+    width: 370px;
+    background-color:#B8E3AB;
+    margin: 1px auto;
+	font: 18px "Arial Narrow";
+	padding-top: 2px;
+}
+#text {
+	font: 21.5px "Arial Black";
+	text-align: center;
+	border-radius: 20px; 
+	background: #269B2C;
+	padding: 3px;
+	margin: 11px;
+}
+fieldset {
+	width: 320px;  
+	margin: 3px auto;
+	padding: 10px 15px;
+	 box-sizing: border-box;
+	border: 2px solid #269B2C;
+}
+
+legend {
+ font-size: 19px;
+font-weight: bold;
+}
+label {
+  width: 110px;
+}
+input:focus {
+  background: #00BBFF;
+}
+
+input, textarea {
+  width: 140px;
+  font: 18px "Arial Narrow";
+}
+textarea {
+  height: 100px;
+}
+
+select {
+  width: 140px;
+  font: 18px "Arial Narrow";
+}
+#bsu {
+	width: 140px;
+	height: 222px;
+}
+#vvod {
+	width: 106px;
+}
+input[type=checkbox] {
+	width: 14px;
+	height: 14px;
+}
+input[type=checkbox]:focus {
+  background: #00BBFF;
+}
+input[type=radio] {
+  width: 14px;
+	height: 14px;	
+}
+input[type=radio]:focus {
+  background: #00BBFF;
+}
+#OK {
+	width: 30px;
+	padding: 1px;
+	margin:5px 0 5px 125px;
+	text-align: center;
+}
+#OK:focus {
+	background: #00BBFF;
+}
+#Otmena:focus {
+	background: #00BBFF;
+}
+#Otmena {
+	width: 70px;
+	padding: 1px;
+	text-align: center;
+}
+input[type=submit] {
+  width: 30px;
+  padding: 1px;
+}

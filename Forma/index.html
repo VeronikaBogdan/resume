@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Форма Богдан Вероники</title>
+    <link rel="stylesheet" href="Forma.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+        <div id="text">Форма с UI элементами</div>
+	     	<form>
+		<fieldset>
+   		<legend>Radio</legend>
+			<input type="radio" name="g" value="Первый" checked>Первый<br>
+			<input type="radio" name="g" value="Второй">Второй<br>
+			<input type="radio" name="g" value="Третий">Третий
+  		</fieldset>
+		</form>	
+		
+		<form>	
+		<fieldset>
+		<legend>Frame</legend>
+			<label for="vvod"> <img id="bsu" src="images/BSU.png" /></label> <br>
+			<input id="vvod" type="text"> <input type="submit" value="Ок" >
+		</fieldset>
+		</form>
+	
+		<form>
+		<fieldset>
+   		<legend>Checkbox</legend>
+			 <input type="checkbox" name="a" value="Первый">Первый<br>
+  		         <input type="checkbox" name="a" value="Второй" >Второй<br>
+   			 <input type="checkbox" name="a" value="Третий">Третий
+   		</fieldset>
+		</form>
+			
+		<form>
+		<fieldset>
+   		<legend>Listbox</legend>
+			<select name="select" size="3" multiple>
+    				<option value="Первый">Первый</option>
+    				<option value="Второй">Второй</option>
+    				<option value="Третий">Третий</option>
+				<option value="Четвёртый">Четвёртый</option>
+	      		</select>
+  		</fieldset>
+		</form>
+		
+		<form>
+		<fieldset>
+		<legend>Сombobox</legend>
+			<select>
+				<datalist>
+ 				<option label="Первый"></option>
+				<option label="Второй"></option>
+ 				<option label="Третий"></option>
+	 			</datalist>
+	      		</select>
+  		</fieldset>
+		</form>
+		
+		<form>
+		<fieldset>
+		<legend>Бегунок</legend>
+			<input type="range" min="0" max="100" step="1" value="50">
+		</fieldset>
+ 		</form>
+
+		<form>
+ 		<fieldset>
+		<legend>Счетчик</legend>
+			<input type="number" min="1" max="10" value="1">
+		</fieldset>
+		</form>
+
+		<form id="button">
+ 			<input id="OK" type="submit" value="Ок"> <input id="Otmena" type="submit" value="Отмена">
+  
+ 		</form>
+	</div>
+</body>
+</html>
+

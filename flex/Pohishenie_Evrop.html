@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+ 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Галерея картин Валентина Серова" />
+    <meta name="keywords" content="картины, Валентин, Серов, галерея, описание" />
+	<title>&ldquo;Похищение Европы&rdquo; В.Серов</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="pictures.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div class="burger">
+			<h1>Галерея картин Валентина Серова</h1>  		
+			<a class="toggle-nav" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>	
+			</div>			
+			<nav class="menu">
+				<ul class="active">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="information.html">Информация о художнике</a></li>
+				</ul>	
+			</nav>
+		</div>
+		<a href="index.html"><h1 style="padding:0 35px; letter-spacing: 0px; text-align: center;">&laquo;Похищение Европы&raquo;</h1></a> 			
+		<a href="index.html"><img class="img6" src="images/Pohishenie_Evrop.jpg" title="Похищение Европы" alt="Похищение Европы" /></a>
+		<div style="display: flex; justify-content:space-between;">
+			<a href="Baba_s_loshadju.html"><span class="strelka">&larr;</span></a>
+			<a href="Anna_Pavlova.html"><span class="strelka">&rarr;</span></a>
+		</div>
+		<div id="text1" style="margin-top: 0 ;">	
+			<p>В 1907 году Валентин Серов путешествовал по Греции вместе с Львом Бакстом. Художники побывали на острове Крит, изучали фрагменты древнего Кносского дворца и его фресок. У Серова родилась идея создать полотно на античный сюжет, и он выбрал греческий миф о том, как Зевс похитил дочь финикийского царя Европу, а после увез на Крит и женился на ней.</p>
+			<br>
+			<p>Первые наброски к будущему полотну художник создал еще в Греции: зарисовал быков, везущих повозки. Однако натуру для героев полотна пришлось искать еще долго — в Испании, Италии и Франции, где Серов побывал позже. В итальянской деревушке Орвиетто живописец отыскал мощного быка, в парижской мастерской художника Николая Досекина — натурщицу, а из Биарицца привез эскизы с изображением морских волн.</p>
+			<br>
+			<p>Серов закончил картину в 1910 году. Он переписывал ее несколько раз, дорабатывая композицию и выбирая цвета. Декоративное панно создано в стиле модернизма: минимум деталей, схематичное изображение, цветовые контрасты без тонких переходов. Художник выбрал для полотна коричневые и синие оттенки — в сочетании с черным это классическая гамма древнегреческих фресок.</p>
+		</div>
+		<div id="footer">
+			<p>&copy; БГУ, 2020 | <a href="mailto:galery.Serov2020@gmail.com" style="color: #18298F">galery.Serov2020@gmail.com</a></p>
+		</div>
+	</div>
+	<script>
+		jQuery(document).ready(function() {
+		jQuery('.toggle-nav').click(function(e) {
+		jQuery(this).toggleClass('active');
+		jQuery('.menu ul').toggleClass('active');
+
+		e.preventDefault();
+		});
+	});
+
+	</script>
+</body>
+</html>
+

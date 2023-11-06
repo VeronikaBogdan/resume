@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+ 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta name="description" content="Галерея картин Валентина Серова" />
+	    <meta name="keywords" content="картины, Валентин, Серов, галерея, описание" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>&ldquo;Баба с лошадью&rdquo; В.Серов</title>
+ 		<link rel="stylesheet" href="pictures.css" type="text/css" />
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="burger">
+				<h1>Галерея картин Валентина Серова</h1>  		
+				<a class="toggle-nav" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>	
+				</div>			
+				<nav class="menu">
+					<ul class="active">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="information.html">Информация о художнике</a></li>
+					</ul>	
+				</nav>
+			</div>
+			<a href="index.html"><h1 style="padding:0 35px; letter-spacing: 0px; text-align: center;">&laquo;Баба с лошадью&raquo;</h1></a> 			
+	        <a href="index.html"><img class="img1" title="Баба с лошадью" src="images/Baba_s_loshadju.jpg" alt="Баба с лошадью" /></a>
+			<div style="display: flex; justify-content:space-between;">
+				<a href="Children.html"><span class="strelka">&larr;</span></a>
+				<a href="Pohishenie_Evrop.html"><span class="strelka">&rarr;</span></a>
+			</div>
+			<div id="text1" style="margin-top: 0 ;">	
+           		<p>Серов любил показывать деревенскую Россию. Но он не стремился воспроизвести ее убогость или же подчеркнуть красоту природы. Он смотрел на все, как реалист, и показывал зрителям простые деревенские картины, написанные с добротой и сердечностью.</p>
+				<br>
+				<p>Одна из них – «Баба с лошадью», созданная в 1889 году. Мы видим веселую молодую девушку с румяными щеками. Она стоит рядом со своей лошадью, держит ее за уздечку. Серов писал картину в настоящий мороз. В такую погоду работать масляными красками невозможно – Серов принял решение отложить краски и взяться за пастель. Как рассказывал художник, ему хотелось отразить в картине радостное ощущение русского мороза, который сильно румянит щеки, и заставляет лошадь прижаться к своей хозяйке.</p>
+				<br>
+				<p>Серов писал картину не в одиночестве: еще в начале работы его окружили крестьяне. Хватало всего несколько штрихов, чтобы крестьяне начинали выкрикивать названия того, что видели на пастели: нос, губы, платок. Жители деревни до самого конца наблюдали за работой художника и удивлялись тому, как Серов владеет мастерством рисунка. Казалось, достаточно взять карандаш, чтобы также реалистично изобразить окружающее. Серов не раз признавался, что не критики заставляют его гордиться своими работами, а крестьяне и их одобрение.</p>
+			</div>
+			<div id="footer">
+				<p>&copy; БГУ, 2020 | <a href="mailto:galery.Serov2020@gmail.com" style="color: #18298F">galery.Serov2020@gmail.com</a></p>
+    		</div>
+		</div>
+		<script>
+			jQuery(document).ready(function() {
+			jQuery('.toggle-nav').click(function(e) {
+			jQuery(this).toggleClass('active');
+			jQuery('.menu ul').toggleClass('active');
+	 
+			e.preventDefault();
+		});
+		});
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+ 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Галерея картин Валентина Серова" />
+    <meta name="keywords" content="картины, Валентин, Серов, галерея, описание" />
+	<title>&ldquo;Девушка, освещенная солнцем&rdquo; В.Серов</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="pictures.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div class="burger">
+			<h1>Галерея картин Валентина Серова</h1>  		
+			<a class="toggle-nav" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>	
+			</div>			
+			<nav class="menu">
+				<ul class="active">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="information.html">Информация о художнике</a></li>
+				</ul>	
+			</nav>
+		</div>
+		<a href="index.html"><h1 style="padding:0 35px; letter-spacing: 0px; text-align: center;">&laquo;Девушка, освещенная солнцем&raquo;</h1></a> 			
+		<a href="index.html"><img class="img6" src="images/Devushka_osveshennaj_solncem.jpg" title="Девушка, освещенная солнцем" alt="Девушка, освещенная солнцем" /></a>
+		<div style="display: flex; justify-content:space-between;"></a>
+			<a href="Devochka_s_persikami.html"><span class="strelka">&larr;</span></a>
+			<a href="Children.html"><span class="strelka">&rarr;</span></a>
+		</div>
+		<div id="text1" style="margin-top: 0 ;">	
+			<p>На одной из самых «отрадных» картин Серова изображена его кузина Мария Симонович. Художник писал ее в усадьбе Домотканово, в старом саду под липами. Он просил двоюродную сестру во время сеансов вспоминать приятное, сидеть неподвижно и сохранять одно и то же выражение лица.</p>
+			<br>
+			<p>Получилась замечательная работа, через которую Серов пытался передать чувство восторга и умиления, которое у него появляется, когда он видит настоящую русскую красоту. Портрет полон жизни. Мы видим лето, ароматное, зеленое, солнце играет лучами и разогревает землю. Устав от его ярких лучей, девушка села под деревьями, но и там не смогла спрятаться от солнечного света. Трудно оторвать взгляд от слегка задумчивого, но умиротворенного взгляда, яркого румянца на щеках.</p>
+			<br>
+			<p>Это полотно — также одна из импрессионистских работ Валентина Серова. Художник планировал написать его именно в саду, где свет и тень создают переливы красок. Он прорабатывал блики мелкими цветными мазками — можно заметить, как живописец «собрал» из разных оттенков светлую блузку Марии Симонович. Картину почти сразу же выкупил за большие деньги Павел Третьяков, и на первой выставке она уже висела с табличкой «Собственность Третьякова». Картина «Девушка, освещённая солнцем» была одним из самых любимых творений Серова.</p>
+		</div>
+		<div id="footer">
+			<p>&copy; БГУ, 2020 | <a href="mailto:galery.Serov2020@gmail.com" style="color: #18298F">galery.Serov2020@gmail.com</a></p>
+		</div>
+	</div>
+	<script>
+		jQuery(document).ready(function() {
+		jQuery('.toggle-nav').click(function(e) {
+		jQuery(this).toggleClass('active');
+		jQuery('.menu ul').toggleClass('active');
+
+		e.preventDefault();
+		});
+	});
+
+	</script>
+</body>
+</html>
+
